@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jayn</title>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <!--b必须引入如下两个js库才可以实现网页折叠动态效果，且顺序不能变，jQuery必须放在bootstrap.min.js之前-->
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+
+    <!--栅格系统，分成3-9两栏-->
+    <div class="container-fluid">
+
+
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Jayn</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span><!--多加一句，图标会多出一杠-->
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="navbar_collapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">首页</a></li>
+                        <li><a href="#">科研</a></li>
+                        <li><a href="#">技术积累</a></li>
+                        <li><a href="#">生活</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-md-3">
+                <img src="http://i1.17173.itc.cn/2011/news/2011/07/19/lj0719bi03s.jpg" alt="mountain"
+                     class="img-thumbnail"/>
+                <img src="http://www.rmysw.org/UploadFile/pic/2010083160209565.jpg" alt="fonts"
+                     class="img-thumbnail"/>
+                <!--contact-->
+                <address contenteditable="true"><strong>Jayn</strong><br />
+                    Dongchuan Road 800, Minhang District<br />
+                    Shanghai, China<br />
+                    <abbr title="Cellphone">P:</abbr> (+86)13764779764</address>
+            </div>
+            <!--右半栏-->
+            <div class="col-md-9">
+                <!--轮换图-->
+                <div class="carousel slide" id="carousel-334721">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0" data-target="#carousel-334721"></li>
+                        <li data-slide-to="1" data-target="#carousel-334721" class=""></li>
+                        <li data-slide-to="2" data-target="#carousel-334721" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active"> <img alt="" src="img/person1.jpg">
+                            <div class="carousel-caption" contenteditable="true">
+                                <h4>life in SJTU</h4>
+                            </div>
+                        </div>
+                        <div class="item"> <img alt="" src="img/HIT.jpg">
+                            <div class="carousel-caption" contenteditable="true">
+                                <h4>life in HIT</h4>
+                            </div>
+                        </div>
+                        <div class="item"> <img alt="" src="img/NCKU.jpg">
+                            <div class="carousel-caption" contenteditable="true">
+                                <h4>life in Taiwan</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <a data-slide="prev" href="#carousel-334721" class="left carousel-control">‹</a> <a data-slide="next" href="#carousel-334721" class="right carousel-control">›</a> </div>
+
+                <div class="artical">
+                    <h2>
+                        关于我
+                    </h2>
+                    <p>
+                        本人籍洋，目前就读于上海交通大学，电子信息与电气工程学院，自动化系。目前从事的研究为计算机视觉，目标检测等相关领域。本科毕业于哈尔滨工业大学，
+                        自动化系。虽然大学四年学了四年的控制，但是自己最终还是没有选择从事航天事业（如此高端的事业，现在想想放弃了也有点唏嘘不已）。目前主要的工作就是码代码，
+                        研究算法。
+                    </p>
+                    <p>
+                        虽然我的科研是研究计算机视觉的算法，但是，总是搞这个也挺枯燥的，我会在科研之余，研究一些自己感兴趣的网络技术。热衷于互联网技术。热衷于自身不断的技术积累。
+                        也很希望能够在这个领域做出自己的价值。
+                    </p>
+                    <p>
+                        <a class="btn btn-default" href="#" role="button">查看更多 »</a>
+                    </p>
+                </div>
+
+
+                <div class="artical">
+                    <h2>
+                        关于我
+                    </h2>
+                    <p>
+                        本人籍洋，目前就读于上海交通大学，电子信息与电气工程学院，自动化系。目前从事的研究为计算机视觉，目标检测等相关领域。本科毕业于哈尔滨工业大学，
+                        自动化系。虽然大学四年学了四年的控制，但是自己最终还是没有选择从事航天事业（如此高端的事业，现在想想放弃了也有点唏嘘不已）。目前主要的工作就是码代码，
+                        研究算法。
+                    </p>
+                    <p>
+                        虽然我的科研是研究计算机视觉的算法，但是，总是搞这个也挺枯燥的，我会在科研之余，研究一些自己感兴趣的网络技术。热衷于互联网技术。热衷于自身不断的技术积累。
+                        也很希望能够在这个领域做出自己的价值。
+                    </p>
+                    <p>
+                        <a class="btn btn-default" href="#" role="button">查看更多 »</a>
+                    </p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
